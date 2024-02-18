@@ -1,0 +1,129 @@
+
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #fbe3e8ac;
+}
+
+
+.todolist {
+    border: rgba(11, 1, 1, 0.181);
+    border-style: solid;
+    width: 100%;   
+
+}
+
+
+h1 {
+    font-size: 6rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: normal;
+    text-align: center;
+    color: rgb(203, 105, 105);
+    letter-spacing: 1px;
+    opacity: 70%;
+}
+
+
+input.my-input {
+    
+    opacity: 60%;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    margin-left: 2px;
+    margin-right: 6px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: rgb(0, 0, 0);  
+}
+
+
+ul {
+    padding-left: 0px;
+    margin-left: 2rem;
+}
+
+
+  ul li {
+    list-style: none;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-bottom: inset;
+    margin-right: 2.5rem;
+    word-wrap: break-word; 
+    overflow: hidden; 
+}
+
+
+
+.fa{
+    color: rgba(222, 74, 74, 0.669);
+    
+}
+
+
+.items-left{
+    margin-top: 15px;
+    margin-left: 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 10;
+    width: 80%;
+}
+
+
+
+.line-container {
+    position: relative; 
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+}
+
+
+.line-one {
+    position: absolute;
+    width: 99%;
+    height: 8px;
+    border-right: solid 2px rgba(11, 1, 1, 0.181);
+    border-left: solid 2px rgba(11, 1, 1, 0.181);
+    border-bottom: solid 2px rgba(11, 1, 1, 0.181);
+    bottom: -10px; 
+    overflow: visible; 
+}
+
+
+.line-two {
+    position: relative;
+    width: 97%;
+    height: 8px;
+    overflow: visible;
+    border-right: solid 2px rgba(11, 1, 1, 0.181);
+    border-left: solid 2px rgba(11, 1, 1, 0.181);
+    border-bottom: solid 2px rgba(11, 1, 1, 0.181);
+    bottom: -18px;   
+}
+
+
+
+
